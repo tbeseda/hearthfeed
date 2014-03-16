@@ -9,8 +9,8 @@
   "author": "Taylor Beseda <tbeseda@gmail.com> (http://taylorbeseda.com/)",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "cheerio": "~0.12.4",
-    "request": "~2.30.0",
+    "cheerio": "~0.13.1",
+    "request": "~2.34.0",
     "durable-json-lint": "0.0.1"
   }
 }

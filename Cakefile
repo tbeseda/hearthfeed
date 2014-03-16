@@ -27,4 +27,4 @@ get_all_cards = (callback) ->
 task 'scrape:hearthhead', 'get some card data', ->
   get_all_cards (scraped_cards) ->
       console.log("Scraped #{scraped_cards.length} cards.")
-      console.log("Example: #{scraped_cards[0]}")
+      console.log('Example:', scraped_cards[0])
