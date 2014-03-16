@@ -1,0 +1,16 @@
+{
+  "name": "hearthfeed",
+  "version": "0.0.1",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Taylor Beseda <tbeseda@gmail.com> (http://taylorbeseda.com/)",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "cheerio": "~0.12.4",
+    "request": "~2.30.0",
+    "durable-json-lint": "0.0.1"
+  }
+}
