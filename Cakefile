@@ -15,8 +15,6 @@ get_all_cards = (callback) ->
       # Parse some malformed JSON
       raw_cards = JSON.parse(json_lint("[#{raw_script}]").json)
 
-      console.log(raw_cards[0])
-
       cards = []
       for raw_card in raw_cards
         card = new Card raw_card
