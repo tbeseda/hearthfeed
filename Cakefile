@@ -24,5 +24,6 @@ get_all_cards = (callback) ->
 
 task 'scrape:hearthhead', 'get some card data', ->
   get_all_cards (scraped_cards) ->
-      console.log("Scraped #{scraped_cards.length} cards.")
-      console.log('Example:', scraped_cards[0])
+    console.log("Scraped #{scraped_cards.length} cards.")
+    random_index = Math.floor(Math.random() * (scraped_cards.length-1)) + 1
+    console.log('Example:', scraped_cards[random_index])
